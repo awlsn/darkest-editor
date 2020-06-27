@@ -1,0 +1,222 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+input[type="range"] {
+  height: 0;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
+
+.title,
+.stun {
+  color: #71653e;
+}
+
+.healhp {
+  color: #3a4e1d;
+}
+
+.red,
+.bleed,
+.marked,
+.crimson {
+  color: #a31700;
+}
+
+.orange,
+.debuff {
+  color: #853001;
+}
+
+.gold {
+  color: #76664f;
+}
+
+.blue {
+  color: #101a2c;
+}
+
+.blight {
+  color: #abaf3a;
+}
+
+.trinket_info {
+  list-style: none;
+  width: 20%;
+}
+
+.trinket_info li {
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.trinket_info__img {
+  width: 72px;
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buff_info {
+  list-style: none;
+  width: 20%;
+}
+
+.buff_info li {
+  margin: 5px;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.trinket_info li li {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.trinket_info img {
+}
+
+.trinket_info div {
+  display: grid;
+}
+
+.trinket_info div {
+  flex-basis: 1;
+}
+
+.trinket_info h4 {
+  flex: 0 1 100%;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+.ancestral {
+  background-image: url("images/trinket/rarity_ancestral.png");
+}
+
+.ancestral_shambler {
+  background-image: url("images/trinket/rarity_ancestral_shambler.png");
+}
+
+.collector {
+  background-image: url("images/trinket/rarity_collector.png");
+}
+
+.common {
+  background-image: url("images/trinket/rarity_common.png");
+}
+
+.courtier {
+  background-image: url("images/trinket/rarity_courtier.png");
+}
+
+.crow {
+  background-image: url("images/trinket/rarity_crow.png");
+}
+
+.darkest_dungeon {
+  background-image: url("images/trinket/rarity_darkest_dungeon.png");
+}
+
+.kickstarter {
+  background-image: url("images/trinket/rarity_kickstarter.png");
+}
+
+.madman {
+  background-image: url("images/trinket/rarity_madman.png");
+}
+
+.rare {
+  background-image: url("images/trinket/rarity_rare.png");
+}
+
+.trophy {
+  background-image: url("images/trinket/rarity_trophy.png");
+}
+
+.uncommon {
+  background-image: url("images/trinket/rarity_uncommon.png");
+}
+
+.very_common {
+  background-image: url("images/trinket/rarity_very_common.png");
+}
+
+.very_rare {
+  background-image: url("images/trinket/rarity_very_rare.png");
+}
